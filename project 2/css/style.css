@@ -1,0 +1,96 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Anybody', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color:rgb(46, 44, 43);
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding-left: 5%;
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 20px;
+    position: relative;
+}
+.nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.content1{
+    width: 80%;
+    margin: 100px 150px 150px 150px;
+    padding: 10px 10px 10px 10px;
+}
+.isi-1{
+    width: 80%;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 10px 15px 0px;
+    background-color: rgba(46, 44, 43, 0.118);
+}
+.isi-1 img{
+    width: 200px;
+    height: 200px;
+    padding-right: 10px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.isi-1 p{
+    font-weight: bold;
+    text-align: justify;
+}
+.isi-2{
+    width: 80%;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 10px 15px 0px;
+    background-color: rgba(46, 44, 43, 0.118);
+}
+.isi-2 img{
+    width: 200px;
+    height: 200px;
+    padding-right: 10px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.isi-2 p{
+    font-weight: bold;
+    text-align: justify;
+}
+.clear{
+    clear: left;
+}
+.content2{
+    width: 80%;
+    height: max-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.sambutan2 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.content2 img{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+}
